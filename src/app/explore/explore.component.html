@@ -1,18 +1,89 @@
-<section id="explore-head-section">
+<!-- about / why section -->
+<section id="about" class=" py-5 text-center bg-light">
   <div class="container">
     <div class="row">
-      <div class="col text-center">
-        <div class="py-5">
-          <h1 class="display-4">
-            <p class="lead">To learn about all the coaching we have to offer.</p>
+      <div class="col">
+        <div class="info-header mb-5">
+          <h1 class="text-primary pb-3">Why Reactive Science?</h1>
+          <p class="lead pb-3">
+            Our staff continues education with emerging frameworks designed around a user experience as out highest concern.
+          </p>
+        </div>
+        <!-- accordian -->
+            <ngb-accordion [closeOthers]="true" #acc="ngbAccordion" activeIds="ngb-panel-0">
+            <ngb-panel>
+              <ng-template ngbPanelTitle class="card-header">
+              <span class="text-primary"> <i id="icons" class="fa fa-arrow-circle-down"></i> Get Inspired</span>
+              </ng-template>
+            <ng-template ngbPanelContent class="card-body">
+              Living life looking for the most beautiful things to enjoy.
 
-            <a routerLink="/canopy" class="btn btn-outline-secondary">Canopy</a>
-          </h1>
+          </ng-template>
+          </ngb-panel>
+          <ngb-panel>
+            <ng-template ngbPanelTitle class="card-header">
+            <span class="text-primary"> <i id="icons" class="fa fa-arrow-circle-down"></i> Understand Us</span>
+            </ng-template>
+          <ng-template ngbPanelContent class="card-body">
+            Join our team
+
+        </ng-template>
+        </ngb-panel>
+        <ngb-panel>
+          <ng-template ngbPanelTitle class="card-header">
+          <span class="text-primary"> <i id="icons" class="fa fa-arrow-circle-down"></i> Get Involved</span>
+          </ng-template>
+        <ng-template ngbPanelContent class="card-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+
+        </ng-template>
+      </ngb-panel>
+      </ngb-accordion>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- boxes  -->
+<section id="boxes" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="card text-center border-primary">
+          <div class="card-body">
+            <h3 class="text-primary">Web Development</h3>
+            <p class="text-muted">Front-end Angularjs 5 development with unlimited backend possibilities.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card text-center bg-primary text-white">
+          <div class="card-body">
+            <h3 class="">Application Conversion</h3>
+            <p >Using angular 5 and typescript to make apps on the web and in nativescript.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card text-center border-primary">
+          <div class="card-body">
+            <h3 class="text-primary">Javascript Takeover</h3>
+            <p class="text-muted">Web applications and mobile applications are changing to be able to use javascript everywhere. Front-end, back-end, and mobile just sounds like everything we need!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card text-center bg-primary text-white">
+          <div class="card-body">
+            <h3 class="">Join The Movement</h3>
+            <p>Allowing the web to move towards a more reactive age.</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- explore section  -->
 <section id="explore-section" class="bg-light text-muted py-5">
   <div class="container">
     <div class="row">
