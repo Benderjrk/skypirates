@@ -1,0 +1,30 @@
+#home-section{
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  margin-top: 80px;
+}
+#wantRigging{
+  margin-top: 150px;
+}
+.card-form{
+  opacity: 0.8;
+}
+.fa {
+  color: #630404;
+  background:#fff;
+  padding:4px;
+  border-radius:2px;
+  font-size: 70px;
+  border: #000000 1px solid;
+}
+#home-card{
+  color:rgb(0, 0, 0);
+}
+#home-logo{
+  color:#9d0d0d;
+}
+.dark-overlay{
+  background-color:rgba(0, 0, 0, 0.2);
+  min-height: 700px;
+}

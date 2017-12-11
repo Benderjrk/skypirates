@@ -1,0 +1,32 @@
+{
+  "hosting": {
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "source": "/home",
+        "destination": "https://www.skypirates.com",
+        "type": 302
+      },
+      {
+        "source": "/rigging",
+        "destination": "https://www.skypirates.com",
+        "type": 302
+      },
+      {
+        "source": "/canopy",
+        "destination": "https://www.skypirates.com",
+        "type": 302
+      },
+      {
+        "source": "/contact",
+        "destination": "https://www.skypirates.com",
+        "type": 302
+      }
+    ]
+  }
+}

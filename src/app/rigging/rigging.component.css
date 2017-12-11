@@ -1,0 +1,28 @@
+#riggingStuff{
+  margin-top: 80px;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  margin-top: 80px;
+}
+#riggingStuff .fa{
+  color: #090463;
+  background:#2e5d0c;
+  padding:4px;
+  border-radius:6px;
+  font-size: 20px;
+  border: #630404 2px solid;
+}
+#rig-card{
+  color: #000000;
+  font-size: 15px;
+}
+#rig-titles{
+  color: #600e01;
+}
+#riggingTitle{
+  color: #600e01;
+}
+#riggingInfop{
+  color: #090463;
+}

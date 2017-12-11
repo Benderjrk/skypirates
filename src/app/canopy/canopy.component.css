@@ -1,0 +1,28 @@
+#canopyStuff{
+  margin-top: 80px;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  margin-top: 80px;
+}
+#canopyStuff .fa{
+  color: #090463;
+  background:#2e5d0c;
+  padding:4px;
+  border-radius:6px;
+  font-size: 20px;
+  border: #630404 2px solid;
+}
+#canopy-card{
+  color: #000000;
+  font-size: 15px;
+}
+#canopy-titles{
+  color: #600e01;
+}
+#canopyTitle{
+  color: #600e01;
+}
+#canopyInfop{
+  color: #090463;
+}

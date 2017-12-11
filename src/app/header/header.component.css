@@ -1,0 +1,14 @@
+.navbar{
+  border-bottom: #2387e7 3px solid;
+  opacity: 0.8;
+}
+#titleLogo{
+  max-height: 100px;
+  margin-bottom: -40px;
+  margin-left: 0px;
+}
+#logo-section{
+  background-attachment: fixed;
+  min-height: 50px;
+  margin-top: 80px;
+}

@@ -1,0 +1,13 @@
+#home-section1{
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+
+}
+.dark-overlay{
+  background-color:rgba(0, 0, 0, 0.3);
+  min-height: 700px;
+}
+#addresses{
+  margin: -5px;
+}
