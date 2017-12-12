@@ -6,3 +6,12 @@
   font-size: 35px;
   border: #044663 2px solid;
 }
+#cardColoring {
+  background-color: #2387e7;
+}
+#cardBorderColoring {
+  border: 2px #2387e7 solid;
+}
+#cardTitleColoring {
+  color: #2387e7;
+}
