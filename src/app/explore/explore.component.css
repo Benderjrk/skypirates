@@ -25,7 +25,8 @@
   color: rgb(254, 160, 0);
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-.dark-overlay{
-  background-color:rgba(0, 0, 0, 0.70);
-  margin-top: -50px;
+.dark-ov{
+  background-color:rgba(0, 0, 0, 0.8);
+  margin-top: -49px;
+  margin-bottom: -49px;
 }
