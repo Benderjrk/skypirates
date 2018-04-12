@@ -1,7 +1,8 @@
 #home-section1{
-  background-size: cover;
   background-attachment: fixed;
-  min-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% auto;
 
 }
 .dark-overlay{

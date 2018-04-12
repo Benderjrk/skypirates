@@ -23,9 +23,11 @@
   color: #000000;
   font-size: 15px;
   font-weight: bold;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 #home-logo{
   color:#2387e7;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 .dark-overlay{
   background-color:rgba(0, 0, 0, 0.2);
